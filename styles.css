@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    background-color: #1F2937;
+    font-family: calibri;
+}
+
+/*================== HEADER SECTION ==================*/
+.header-section, .footer-section {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 24px;
+    font-family: calibri;
+}
+.header-section {
+    display: flex;
+}
+.header-logo {
+    margin-left: 200px;
+}
+.header-section ul {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    padding-right: 250px;
+    column-gap: 70px;
+    list-style-type: none;
+}
+.hero-section h1 {
+    font-weight: bolder;
+    font-size: 48px;
+    color: #F9FAF8;
+    font-family: calibri;
+}
+/*===================================================*/
+
+/*================ HERO SECTION =====================*/
+.hero-section {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    margin-left: 200px;
+}
+.hero-section .left-side {
+    flex-direction: column;
+    align-content: flex-start;
+    font-size: 18px;
+    color: #E5E7EB;
+    font-family: calibri;
+    width: 50%;
+    margin-bottom: 150px;
+    margin-top: 50px;
+}
+.hero-section .left-side button {
+    width: 150px;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 10px;
+    font-size: 24px;
+    padding: 10px;
+}
+.hero-section .right-side {
+    display:flex;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    color: #E5E7EB;
+    font-family: calibri;
+    width: 50%;
+    margin-right: 200px;
+    margin-bottom: 150px;
+    margin-top: 100px;
+}
+
+.hero-section .right-side img {
+    width: 600px;
+    height: 300px;
+}
+/*===================================================*/
+
+/*=================INFO SECTION======================*/
+.info-section {
+    background-color: white;
+    margin-bottom: 0px;
+}
+.info-image-group {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+.info-item {
+    text-align: center;
+    width: 200px;
+}
+.info-item img{
+    width: 200px;
+    border-style:solid;
+    border-color: rgb(89, 89, 221);
+    border-radius: 20px;
+    border-width: 5px;
+}
+.info-section h1 {
+    font-weight: bolder;
+    text-align: center;
+    padding: 30px;
+    font-size: 50px;
+}
+/*===================================================*/
+
+/*===================QUOTE SECTION====================*/
+.quote-section {
+    margin: 0;
+    background-color: #E5E7EB;
+    padding: 200px;
+    text-align: center;
+}
+.quote-section h1 {
+    margin: 0;
+    background-color: #E5E7EB;
+    text-align: center;
+    text-align: justify;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.quote-section h2 {
+    text-align: right;
+    padding-right: 300px;
+    font-size: 32px;
+}
+/*===================================================*/
+
+/*=================SIGN UP SECTION==================*/
+.sign-up-section {
+    background-color: white;
+    padding: 200px;
+    display: flex;
+    justify-content: center;
+    
+}
+.sign-up-section h2 {
+    margin: 0px;
+}
+.sign-up-group {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 12px;
+    padding: 70px;
+    width: 70%;
+    display: flex;
+    font-size: 20px;
+}
+.sign-up-item {
+    padding-left: 100px;
+}
+.sign-up-item p {
+    margin: 0px;
+}
+.sign-up-group button{
+    font-size: 30px;
+    margin-left: 300px;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 15px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-color: white;
+    border-style: solid;
+    border-width: 3px;
+}
+
+/*===================================================*/
+
+/*===============FOOTER SECTION=======================*/
+.footer-section {
+    padding: 30px;
+    text-align: center;
+}
+/*===================================================*/
